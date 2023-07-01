@@ -10,8 +10,8 @@ public class Toy {
         return "" + this.getName() +
                 "!!! под серийным номером " + this.getId() +
                 ". Вероятность выпадания такой игрушки составляет всего " + this.getChance() + 
-                "%!!! Всего таких " + this.getQuantity() +
-                " в наличии.";
+                "%!!! Всего в наличии " + this.getQuantity() +
+                " шт.\u001B[0m";
     }
 
     public Toy() {
