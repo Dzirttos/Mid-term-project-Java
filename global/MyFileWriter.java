@@ -17,7 +17,7 @@ public class MyFileWriter {
                 winnerToy.getId() + System.lineSeparator() +
                         winnerToy.getName() + System.lineSeparator() +
                         winnerToy.getQuantity() + System.lineSeparator() +
-                        winnerToy.getWeight() + System.lineSeparator();
+                        winnerToy.getChance() + System.lineSeparator();
 
 
         try {
